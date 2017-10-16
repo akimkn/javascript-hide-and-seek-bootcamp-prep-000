@@ -24,7 +24,7 @@ function deepestChild() {
       childnode = document.querySelector(string).innerHTML
     }
   }
-    return document.querySelector(string)
+    return document.querySelector(string).innerHTML
   }
 /*
 function deepestChild() {
