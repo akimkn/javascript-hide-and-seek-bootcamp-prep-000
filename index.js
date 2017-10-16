@@ -22,7 +22,7 @@ function deepestChild() {
       string += ' div'
       childnode = document.querySelector(string)
   }
-  return document.querySelector(string).innerHTML
+  return document.querySelector(string)
 }
 /*
 function deepestChild() {
