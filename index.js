@@ -21,7 +21,7 @@ function deepestChild() {
   while (childnode = '') {
     if (childnode = '') {
       string += ' div'
-      childnode = document.querySelector(string)
+      childnode = document.querySelector(string).innerHTML
     }
   }
     return document.querySelector(string)
