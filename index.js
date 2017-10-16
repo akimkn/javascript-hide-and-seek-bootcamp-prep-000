@@ -19,8 +19,8 @@ function deepestChild() {
   var string = '#grand-node'
   var childnode = document.querySelector(string)
   while (childnode.children.length === 0 {
-      string += ' div'
-      childnode = document.querySelector(string)
+    string += ' div'
+    childnode = document.querySelector(string)
   }
   return document.querySelector(string)
 }
