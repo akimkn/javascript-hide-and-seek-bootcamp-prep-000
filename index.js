@@ -14,13 +14,11 @@ function increaseRankBy(n) {
   }
 }
 
-/*
+
 function deepestChild() {
   var string = '#grand-node'
   var childnode = document.querySelector(string)
-  console.log("6969696969")
   while (!childnode) {
-    console.log("TESSSST")
       string += ' div'
       childnode = document.querySelector(string)
     }
